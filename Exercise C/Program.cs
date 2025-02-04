@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            OutputtingStrings();
+        }
+
+        private static void OutputtingStrings()
+        {
+            string outSent = "I'm in Game 1377: Scripting for Games Designers.\n";
+            Console.WriteLine(outSent);
         }
     }
 }
