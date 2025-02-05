@@ -32,7 +32,7 @@
             int sum = intInput1 + intInput2;
             int diff = intInput1 - intInput2;
             int product = intInput1 * intInput2;
-            float quotient = intInput1 / intInput2; // Could not figure out how to make the int inputs names into float numbers...
+            float quotient = intInput1 / (float) intInput2;
             float remainder = intInput1 % intInput2;
 
             Console.WriteLine("\n" + sum);
